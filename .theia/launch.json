@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CCS Debug",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "CCS Debug (1)",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "CCS Debug (2)",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "CCS Debug (3)",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "CCS Debug (4)",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "CCS Debug (5)",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "empty_LP_MSPM0G3507_nortos_ticlang",
+            "type": "ccs-debug",
+            "request": "launch",
+            "project": "empty_LP_MSPM0G3507_nortos_ticlang",
+            "debuggerSettings": {
+                "targetConfigs/MSPM0G3507.ccxml": {
+                    "Texas Instruments XDS110 USB Debug Probe/CORTEX_M0P": {
+                        "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                    }
+                }
+            }
+        },
+        {
+            "name": "MPU6050_Hardware_IIC",
+            "type": "ccs-debug",
+            "request": "launch",
+            "project": "MPU6050_Hardware_IIC"
+        }
+    ]
+}
